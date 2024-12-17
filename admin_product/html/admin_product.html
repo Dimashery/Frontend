@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Product Management - Cooleyah EverydaY</title>
+  <link rel="stylesheet" href="../css/admin_product.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="brand-name">Cooleyah EverydaY</h1>
+      <nav>
+        <ul>
+          <li><a href="../../Home/html/home.html">Home</a></li>
+          <li><a href="../../Product/html/product.html">Product</a></li>
+          <li><a href="../../Buy/html/buy.html">Buy</a></li>
+          <li><a href="../../whats_new/html/whats_new.html">What's New?</a></li>
+          <li><a href="../../admin/html/admin.html">Admin</a></li>
+          <li><a href="admin_product.html">Admin Product</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="admin-section">
+      <h2>Manage Products</h2>
+      <div class="admin-container">
+        <!-- Tabel Produk -->
+        <table id="productTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Data akan di-load di sini -->
+          </tbody>
+        </table>
+
+        <!-- Form untuk Tambah/Edit Produk -->
+        <div class="form-container">
+          <h3>Add / Edit Product</h3>
+          <form id="productForm">
+            <input type="hidden" id="productId">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter product name" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" placeholder="Enter product description"></textarea>
+
+            <label for="price">Price</label>
+            <input type="number" id="price" placeholder="Enter product price" required>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" placeholder="Enter product quantity" required>
+
+            <button type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="about-footer">
+        <h3>About Cooleyah EverydaY</h3>
+        <p>Cooleyah EverydaY focuses on providing contemporary minimalist clothing for young people who wish to express themselves with style.</p>
+      </div>
+      <div class="links-footer">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="../../Product/html/product.html">Product</a></li>
+          <li><a href="../../Buy/html/buy.html">Buy</a></li>
+          <li><a href="../../whats_new/html/whats_new.html">What's New?</a></li>
+          
+        </ul>
+      </div>
+      <div class="contact-footer">
+        <h3>Contact Us</h3>
+        <p>Email: contact@cooleyaheveryday.com</p>
+        <p>Phone: +081 345 6785 90</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Cooleyah EverydaY. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../javascript/admin_product.js"></script>
+</body>
+</html>

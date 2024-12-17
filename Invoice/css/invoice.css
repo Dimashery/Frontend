@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Invoice container */
+.invoice-container {
+    text-align: center;
+}
+
+/* Invoice card */
+.invoice-card {
+    background-color: #4d4d4d;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.invoice-card h2, .invoice-card h3 {
+    margin: 0 0 10px;
+}
+
+.invoice-card hr {
+    border: 0;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin: 15px 0;
+}
+
+.invoice-card .total-price {
+    font-weight: bold;
+    color: #1ef20b;
+}
+
+/* Buy again button */
+.buy-again-btn {
+    background-color: #ec2d2d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.buy-again-btn:hover {
+    background-color: #d22626;
+}
+

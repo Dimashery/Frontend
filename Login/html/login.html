@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="brand-name">Cooleyah EverydaY</h1>
+    <div class="login-box">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Fill The Username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" placeholder="Fill The Password" required>
+            <button type="button" id="togglePassword">👁️</button>
+          </div>
+        </div>
+        <div class="link-group">
+          <a href="#" class="forgot-password">Forgot Password</a>
+        </div>
+        <button type="submit" class="btn-login">Login</button>
+      </form>
+      <p class="signup-text">Don't Have an Account? <a href="../../Sign_Up/html/signup.html">Sign Up</a> now</p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Cooleyah EverydaY. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="../javascript/login.js"></script>
+</body>
+</html>

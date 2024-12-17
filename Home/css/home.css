@@ -1,0 +1,164 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #2a2a2a;
+}
+
+
+.navbar .brand {
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-right: 0; /* Hapus margin bawah untuk mendekatkan */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    margin-right: 600px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.auth-buttons .login-btn, .auth-buttons .get-started-btn {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.get-started-btn {
+    background-color: #ffffff;
+    color: #2a2a2a;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    margin: 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #3a3a5a, #5a3a5a);
+}
+
+.about .content {
+    max-width: 100%;
+}
+
+
+.about .content h2{
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.about .content h1 {
+    font-size: 68px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.about .content p {
+    opacity: 50%;
+    margin-top:20px;
+}
+
+.buy-btn {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: rgb(236, 45, 45);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.shirt-image {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.shirt-image img {
+    max-width: 400px;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 50px 80px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer-content div {
+    max-width: 300px;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-content p,
+.footer-content ul {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.links-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-footer ul li {
+    margin-bottom: 5px;
+}
+
+.links-footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.links-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+    border-top: 1px solid #ffffff;
+    padding-top: 15px;
+}

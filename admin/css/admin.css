@@ -1,0 +1,202 @@
+/* Desain Umum */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2c2b2b;
+    color: #ffffff;
+  }
+  
+  header {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #3a3a5a, #5a3a5a);
+    padding: 20px 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+  
+  .navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar nav ul li a.active {
+    color: #ffffff;
+  }
+  
+  .auth-buttons button {
+    background-color: #070707;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #292929;
+  }
+  
+  /* Admin Section */
+  .admin-section {
+    padding: 20px;
+    background-color: rgb(37, 37, 37);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  #product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #product-form input,
+  #product-form textarea {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #3b3b3b;
+    border-radius: 12px;
+  }
+  
+  #product-form button {
+    background-color: #2e2d2d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #product-form button:hover {
+    background-color: #111111;
+  }
+  
+  /* Produk List */
+  #product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product {
+    background-color: rgb(136, 122, 122);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #bbb5b5;
+    margin-bottom: 10px;
+  }
+  
+  .product strong {
+    font-size: 22px;
+    color: #f0ecec;
+  }
+  
+  .product button {
+    background-color: #e74c3c;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+  }
+  
+  .product button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  footer .footer-content div {
+    max-width: 300px;
+  }
+  
+  footer .footer-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  footer .footer-content p {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  footer .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

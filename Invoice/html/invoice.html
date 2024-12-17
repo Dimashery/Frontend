@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="../css/invoice.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <h1>Invoice</h1>
+        <div class="invoice-card">
+            <div class="items-section">
+                <h2>Items:</h2>
+                <p id="item-name">Loading...</p>
+                <hr>
+            </div>
+            <div class="price-section">
+                <h2>Price</h2>
+                <p id="item-price">Loading...</p>
+                <hr>
+                <p id="tax">Loading...</p>
+                <p id="discount">Discount: Rp. 0.00</p>
+                <h3>Total Price: <span id="total-price">Loading...</span></h3>
+            </div>
+        </div>
+        <button class="buy-again-btn" id="buyAgainBtn">Buy Again</button>
+    </div>
+
+    <script src="../javascript/invoice.js"></script>
+</body>
+</html>
